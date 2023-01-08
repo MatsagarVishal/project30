@@ -1,0 +1,113 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>E West</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="  text-dark bg-body-tertiary sticky-top">
+        <div
+          class="container d-flex flex-wrap align-items-center bg-light text-dark border-bottom border-2 justify-content-center justify-content-md-between py-3 mb-4">
+          <a href="/home.html"
+            class="d-flex align-items-center col-md-2 mb-2 mb-md-0 text-primary text-decoration-underline "
+            style="font-weight: 700;">
+            Swachh Technology challenge
+          </a>
+    
+          <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="/main/home.html" class="nav-link px-2 link-danger">Home</a></li>
+            <li><a href="/main/Services.html" class="nav-link px-2 link-danger">Services</a></li>
+            <li><a href="/main/Feedback.html" class="nav-link px-2 link-primary">FeedBack</a></li>
+            <!-- <li><a href="/Help.html" class="nav-link px-2 link-danger">FAQs</a></li> -->
+            <li><a href="/main/Contact.html" class="nav-link px-2 link-danger">Contact</a></li>
+          </ul>
+    
+          <div class="col-md-3 text-end">
+            <button type="button" class="btn btn-outline-primary me-2">Admin Login</button>
+            <!-- <button type="button" class="btn btn-primary">Sign-up</button> -->
+          </div>
+        </div>
+      </header>
+
+    <div class="container-sm my-lg-5 ">
+        <h4 class="my-8">Feedback</h4>
+            <form class="needs-validation" novalidate="">
+                <div class="row g-3">
+                    <div class="col-sm-6">
+                        <label for="firstName" class="form-label">First name</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="abc" value="" required="">
+                        <div class="invalid-feedback">
+                            Valid first name is required.
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-6">
+                        <label for="lastName" class="form-label">Last name</label>
+                        <input type="text" class="form-control" id="lastName" placeholder="xyz" value="" required="">
+                        <div class="invalid-feedback">
+                            Valid last name is required.
+                        </div>
+                    </div>
+
+                
+
+                    <div class="col-12">
+                        <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
+                        <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                        <div class="invalid-feedback">
+                            Please enter a valid email address .
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-md-4">
+                        <label for="state" class="form-label">State</label>
+                        <select class="form-select" id="state" required="">
+                            <option value="">Choose...</option>
+                            <option>California</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Please provide a valid state.
+                        </div>
+                    </div>
+
+
+                    <hr class="my-4">
+
+
+                    <div class="form-check">
+                        <label for="exampleFormControlTextarea1" class="form-label">Adddress Your Issue..</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+
+
+                    <hr class="my-4">
+
+                    <button class="w-100 btn btn-dark btn" type="submit">send</button>
+            </form>
+        
+    </div>
+
+    <div class="bottom ">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-12 d-flex align-items-center justify-content-center text-bg-dark">
+            <span class="mx-4 mb-3 mb-md-0 "><p>© 2023</p> </span>
+          </div>
+          <div class="mx-5 border-3 border-bottom">
+            <span>
+              e-Municipality can be best viewed in 1024 x 768 monitor resolution and recommended web browsers are
+              Microsoft
+              Internet Explorer 9.0, Mozilla Firefox Version 33.0.2, Chrome Version 23 and Safari 5.1.7 above.
+            </span>
+          </div>
+  
+        </footer>
+        </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
